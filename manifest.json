@@ -6,14 +6,13 @@
     "permissions": ["tabs", "scripting"],
     "host_permissions": ["https://*.aliexpress.com/*"],
     "content_scripts": [
-      {
-        "matches": ["https://*.aliexpress.com/*"],
-        "js": ["content.js"],
-        "run_at": "document_idle"
-      }
+        {
+            "matches": ["https://*.aliexpress.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_idle"
+        }
     ],
     "icons": {
-      "48": "icon.png"
+        "48": "icon.png"
     }
-  }
-  
+}

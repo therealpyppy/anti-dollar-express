@@ -3,7 +3,7 @@
     "name": "AliExpress Anti DollarExpress",
     "version": "1.0",
     "description": "Redirects to original product from DollarExpress links.",
-    "permissions": ["tabs", "scripting"],
+    "permissions": ["scripting"],
     "host_permissions": ["https://*.aliexpress.com/*"],
     "content_scripts": [
         {
